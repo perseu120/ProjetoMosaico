@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Mosaico Coletivo</title>
     <link rel="stylesheet" href="src/assets/style.css">
 </head>
+
 <body>
     <header>
         <h1>🧩 Nosso Mosaico de Conhecimento</h1>
         <p>Projeto colaborativo desenvolvido pelo Grupo [Nome]</p>
     </header>
 
-    <main id="mosaico-container">
-        <section class="peca-mosaico">
-            <h2>Questão 01</h2>
-            <a href="src/questoes/questao-01/index.html">Ver Resolução</a>
-        </section>
+    <main id="resultado-container">
+        <h2>Escolha uma questão para ver a lógica:</h2>
+        <button onclick="carregarLogica('questao01')">Calcular Questão 1</button>
+        <button onclick="carregarLogica('questao02')">Calcular Questão 2</button>
+        <button onclick="carregarLogica('questao03')">Calcular Questão 3</button>
+        <button onclick="carregarLogica('questao04')">Calcular Questão 4</button>
+        <button onclick="carregarLogica('questao05')">Calcular Questão 5</button>
 
-        <section class="peca-mosaico">
-            <h2>Questão 02</h2>
-            <a href="src/questoes/questao-02/index.html">Ver Resolução</a>
-        </section>
+
+
+        <div id="resultado" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;">
+            O resultado aparecerá aqui...
+        </div>
+
+        
     </main>
+    <script src="src/questoes/gerenciado.js"></script>
 </body>
+
 </html>
