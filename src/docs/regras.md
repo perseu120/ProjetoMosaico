@@ -2,6 +2,8 @@
 
 Este documento define as regras e o fluxo de trabalho para contribuição no repositório, garantindo organização, qualidade e colaboração eficiente entre os integrantes.
 
+---
+
 ## 🔀 Fluxo de Trabalho
 
 Para contribuir com o projeto, siga obrigatoriamente as etapas abaixo:
@@ -20,6 +22,7 @@ feat: questao-01-joao
 ---
 
 ### 2. Submissão (Pull Request)
+
 Após concluir sua implementação:
 
 - Envie sua branch para o repositório remoto
@@ -61,13 +64,54 @@ tipo: descrição
 
 **Exemplos:**
 
-- docs: apenas mudanças de documentação
-- feat: uma nova funcionalidade
-- fix: a correção de um bug
-- perf: mudança de código focada em melhorar performance
-- refactor: mudança de código que não adiciona uma funcionalidade e também não corrigi um bug
-- style: mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc)
-- test: adicionar ou corrigir testes
+- docs: apenas mudanças de documentação  
+- feat: nova funcionalidade  
+- fix: correção de bug  
+- perf: melhoria de performance  
+- refactor: refatoração sem mudança de comportamento  
+- style: formatação/estilo  
+- test: testes  
+
+---
+
+## 🤝 Organização do Time
+
+### 📅 Comunicação e Rotina
+- Comunicação principal: **WhatsApp**
+- Horário comum do time: **[definir faixa de horário]**
+- Reuniões: alinhamento diário de no máx. 15 min
+
+---
+
+### ⏱️ SLA (Tempo de Resposta)
+- Mensagens: até **10h**
+- Revisão de PR: até **24h**
+- Correções após review: até **24h**
+
+---
+
+### 🧠 Tomada de Decisão
+- Prioridade: **consenso do grupo**
+- Em caso de impasse: **votação simples**
+- Desempate: decisão do responsável pela tarefa ou maioria ativa
+
+---
+
+### 📌 Divisão de Tarefas
+- As tarefas devem ser organizadas via **Issues**
+- Cada Issue deve ter:
+  - Responsável definido
+  - Descrição clara
+- Cada integrante trabalha em **apenas uma tarefa por vez**
+
+---
+
+## 🚫 Regras Importantes
+
+- Não alterar código de outro integrante sem alinhamento
+- Não abrir PR incompleto
+- Não misturar múltiplas entregas no mesmo PR
+- Sempre revisar antes de solicitar review
 
 ---
 
