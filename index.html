@@ -4,32 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Mosaico Coletivo</title>
+
+    <!-- CSS externo -->
     <link rel="stylesheet" href="src/assets/style.css">
 </head>
 
 <body>
     <header>
-        <h1>🧩 Nosso Mosaico de Conhecimento</h1>
-        <p>Projeto colaborativo desenvolvido pelo Grupo [Nome]</p>
+        <h1>🧩 Mosaico de Conhecimento</h1>
+        <p>Projeto colaborativo desenvolvido pelo grupo <strong>Code Mosaic</strong></p>
     </header>
 
-    <main id="resultado-container">
-        <h2>Escolha uma questão para ver a lógica:</h2>
-        <button onclick="carregarLogica('questao01')">Calcular Questão 1</button>
-        <button onclick="carregarLogica('questao02')">Calcular Questão 2</button>
-        <button onclick="carregarLogica('questao03')">Calcular Questão 3</button>
-        <button onclick="carregarLogica('questao04')">Calcular Questão 4</button>
-        <button onclick="carregarLogica('questao05')">Calcular Questão 5</button>
+    <main>
+        <h2>Escolha uma questão:</h2>
 
-
-
-        <div id="resultado" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;">
-            O resultado aparecerá aqui...
+        <div class="buttons">
+            <button onclick="carregarLogica('questao01')">Questão 1</button>
+            <button onclick="carregarLogica('questao02')">Questão 2</button>
+            <button onclick="carregarLogica('questao03')">Questão 3</button>
+            <button onclick="carregarLogica('questao04')">Questão 4</button>
+            <button onclick="carregarLogica('questao05')">Questão 5</button>
+            <button onclick="carregarLogica('questao06')">Questão 6</button>
         </div>
 
-        
+        <div id="resultado-container">
+            O resultado aparecerá aqui...
+        </div>
     </main>
-    <script src="src/questoes/gerenciado.js"></script>
+
+    <script src="src/questoes/gerenciador.js"></script>
 </body>
 
 </html>
